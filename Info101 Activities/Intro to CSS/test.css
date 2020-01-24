@@ -1,5 +1,6 @@
 #Header {
     width: 500px;
+    height: 200px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -12,7 +13,9 @@
     font-size: 60px; 
     font-family: "Passion One"; 
     color: #FFBC00; 
-    font-weight: bold; 
+    font-weight: bold;
+    opacity: 0.75;
+    filter: alpha(opacity=50);
 }
 
 #LeftNav {
@@ -54,10 +57,11 @@ h3 {
 
 div {
     background-color: #8E41D5; 
+    position: relative;
 }
 
 body {
-    background-image: url('dark_wood.png')
+    background-image: url('dark_wood.png');
 }
 
 a {
