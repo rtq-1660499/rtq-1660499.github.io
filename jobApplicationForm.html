@@ -226,8 +226,63 @@
 		</div>
 	</fieldset>
 
+	<fieldset>
+		<legend>Academic History</legend>
+		<div class="form-group">
+			<label class="control-label">What school did you attend?</label>
+			<textarea class="form-control" name="school" rows="1"></textarea>
+		</div>
+
+		<div class="form-group">
+			<label class="control-label">What is your graduation date?</label>
+			<input type="date" name="graduation_date">
+		</div>
+
+		<div class="form-group">
+			<label class="control-label">What was/is your student ID? (used for verification)</label>
+			<input type="text" name="student_id">
+			<label class="control-label">What was/is your student number? (used for verification)</label>
+			<input type="password" name="student_number">
+		</div>
+
+		<div class="form-group">
+			<label class="control-label">What was/is your GPA range?</label><br>
+			<input type="radio" name="gpa" value="0-1.0"> 0-1.0<br>
+			<input type="radio" name="gpa" value="1.0-2.0"> 1.0-2.0<br>
+			<input type="radio" name="gpa" value="2.0-3.0"> 2.0-3.0<br>
+			<input type="radio" name="gpa" value="3.0-4.0"> 3.0-4.0
+		</div>
+
+		<div class="form-group">
+			<label class="control-label">Which school(s) were you in? (select all that apply)</label><br>
+			<input type="checkbox" name="school" value="arts&sciences">Arts & Sciences<br>
+			<input type="checkbox" name="school" value="built_environments">Built Environments<br>
+			<input type="checkbox" name="school" value="business_school">Business School<br>
+			<input type="checkbox" name="school" value="education">Education<br>
+			<input type="checkbox" name="school" value="engineering">Engineering<br>
+			<input type="checkbox" name="school" value="environment">Environment<br>
+			<input type="checkbox" name="school" value="information_school">Information School<br>
+			<input type="checkbox" name="school" value="medicine">Medicine<br>
+			<input type="checkbox" name="school" value="nursing">Nursing<br>
+			<input type="checkbox" name="school" value="public_health">Public Health<br>
+			<input type="checkbox" name="school" value="social_work">Social Work
+		</div>
+
+		<div class="form-group">
+			<label class="control-group">Baccalaureate Honors (if applicable)</label>
+			<select class="form-control" name="honors">
+				<option value="" selected="true">Choose an award</option>
+				<option valie="none">None</option>
+				<option value="cum_laude">Cum Laude</option>
+				<option value="magna_cum_laude">Magna Cum Laude</option>
+				<option value="summa_cum_laude">Summa Cum Laude</option>
+			</select>
+		</div>
+	</fieldset>
+
 	<p>&nbsp;</p>
 
+	<input class="btn btn-primary btn-lg" type="reset">
 	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 
 	<p>&nbsp;</p>
